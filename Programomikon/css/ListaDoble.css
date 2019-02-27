@@ -13,6 +13,7 @@ body {
 
 ul {
     list-style: none;
+    padding-left: 8px;
     font-weight: bold;
     border: 2px solid rgb(137, 137, 139);
 }
@@ -33,11 +34,8 @@ ul {
 
 div > ul {
     background-color: white;
+    width: 35%;
 }
-
-/*.botonesCentro, .botonesAbajo {
-    
-}*/
 
 .botonesCentro > a, .botonesAbajo > a {
     text-decoration: none;
@@ -52,9 +50,18 @@ div > ul {
     display: flex;
     flex-direction: column;
     align-self: center;
-    
+}
+
+.botonesCentro a {
+    margin: 5px;
 }
 
 .botonesAbajo {
     align-self: center;
+    margin-bottom: 15px;
+}
+
+li:hover {
+    background-color: yellow;
+    cursor: pointer;
 }
