@@ -1,1 +1,2 @@
-Practica sobre tecnologias web.
+Practicas sobre tecnologías web.
+
