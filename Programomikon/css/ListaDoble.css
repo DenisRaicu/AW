@@ -35,9 +35,9 @@ div > ul {
     background-color: white;
 }
 
-.botonesCentro, .botonesAbajo {
+/*.botonesCentro, .botonesAbajo {
     
-}
+}*/
 
 .botonesCentro > a, .botonesAbajo > a {
     text-decoration: none;
