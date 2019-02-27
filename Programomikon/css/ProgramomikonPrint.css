@@ -1,0 +1,24 @@
+/* Reglas CSS para versión de impresión */
+@import'https://fonts.googleapis.com/css?family=Merriweather';
+
+body{
+    font-family: "Merriweather", "serif";
+}
+
+header h2 {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+aside {
+    padding-left: 7px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.cotenedor time {
+    font-style: italic;
+}
