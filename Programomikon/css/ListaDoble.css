@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    background-color: rgb(201, 193, 193);
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    width: 900px;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    border: 2px solid rgb(137, 137, 139);
+}
+
+.listaIzq {
+    color: green;
+}
+
+.listaDer {
+    color: blueviolet;
+}
+
+.bloquePrincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+div > ul {
+    background-color: white;
+}
+
+.botonesCentro, .botonesAbajo {
+    
+}
+
+.botonesCentro > a, .botonesAbajo > a {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+} 
+
+.botonesCentro {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+
+.botonesAbajo {
+    align-self: center;
+}
