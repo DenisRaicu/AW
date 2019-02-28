@@ -1,3 +1,4 @@
+![alt text](https://github.com/DenisRaicu/APLICACIONES-WEB/blob/master/HTML5-.jpg)
 # DISEÑO Y DESARROLLO WEB
 ***PRÁCTICAS PARA PROFUNDIZAR EN EL DISEÑO Y DESARROLLO WEB***
 
@@ -5,4 +6,4 @@ Es un repositorio que pretende agrupar distintas prácticas, mediante diferentes
 
 ## TABLA DE CONTENIDO
 - HTML y CSS
-  - [Programomikon](https://github.com/DenisRaicu/APLICACIONES-WEB/tree/master/Programomikon).
+  - [Programomikon](https://github.com/DenisRaicu/APLICACIONES-WEB/tree/master/Programomikon)
