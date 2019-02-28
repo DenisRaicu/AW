@@ -70,3 +70,45 @@ a {
     font-style: normal;
     color: palevioletred;
 }
+
+.final {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.final th {
+    border-top: 2px solid black;
+    color: white;
+    background-color: crimson;
+    padding: 2px;
+}
+
+.time{
+    background-color: orange;
+    border: 2px solid;
+}
+
+.sesion {
+    background-color: cornflowerblue;
+    border: 2px solid;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+.final .clau {
+    border-left: 2px solid black;
+}
+
+.final .der {
+    border-right: 2px solid black;
+}
+
+.final .etiq {
+    background-color: rgb(84, 163, 39);
+}
+
+.final .rol {
+    background-color: khaki;
+}
