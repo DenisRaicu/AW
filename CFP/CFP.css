@@ -1,1 +1,16 @@
 /* Introduce aquí las reglas de estilo */
+@import 'https://fonts.googleapis.com/css?family=Convergence';
+
+body {
+    font-family: 'Convergence';
+    font-size: 17px;
+    width: 70%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+header {
+    background: linear-gradient(rgb(98, 225, 235), rgb(229, 247, 71));
+    border-radius: 15px;
+}
+
