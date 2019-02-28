@@ -9,8 +9,64 @@ body {
     margin-left:auto;
 }
 
-header {
-    background: linear-gradient(rgb(98, 225, 235), rgb(229, 247, 71));
-    border-radius: 15px;
+body>h2 {
+    color: rgb(81, 195, 230);
+    text-shadow: 0.1em 0.1em #333;
 }
 
+header {
+    background: linear-gradient(rgb(98, 225, 235), rgb(229, 247, 71));
+    padding: 10px;
+    border:cyan 8px outset;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-align: center;
+}
+
+header > h1 {
+    text-shadow: 0.1em 0.1em #333;
+}
+
+header > h3 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p > span {
+    font-style: italic;
+    color: rgb(114, 148, 142);
+}
+
+table .citas {
+    text-align: end;
+    padding-right: 7px;
+}
+
+li > span {
+    color: rgb(87, 25, 158);
+    font-weight: bold;
+}
+
+blockquote {
+    font-style: oblique;
+    color: grey;
+}
+
+a {
+    color: blue;
+}
+
+.comite {
+    text-align: left;
+}
+
+.comite th {
+    padding-right: 10px;
+}
+
+#sistedes{
+    font-weight: bold;
+    font-style: normal;
+    color: palevioletred;
+}
