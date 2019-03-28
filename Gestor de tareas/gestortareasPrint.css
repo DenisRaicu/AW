@@ -1,0 +1,25 @@
+.datosUs {
+    display: none;
+}
+
+.marcar {
+    display: none;
+}
+
+.agregar {
+    display: none;
+}
+
+.botonElimina {
+    display: none;
+}
+
+li > div > span {
+    font-weight: bold;
+    color: rgb(78, 201, 78);
+}
+
+.finalizada {
+    text-decoration: line-through;
+    color: rgb(212, 27, 27);
+}

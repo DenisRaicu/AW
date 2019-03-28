@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="gestortareas.css" media="screen">
+    <link rel="stylesheet" href="gestortareasPrint.css" media="print">
+
+    <title>Gestor de Tareas</title>
+</head>
+
+<body>
+    <header>
+        <img src="RecursosEj2/Logo.png">
+        <div class = "datosUs">
+            <div class = "imgUs"> <img src="RecursosEj2/NoPerfil.png"> </div>
+            <div class = "emailUs">
+                <span>user@mail.com</span>
+                <div class="botonDesconecta"> <a>Desconectar</a> </div>
+            </div>
+        </div>
+    </header>
+    <ul class="lista">
+        <li>
+            <div>
+                Preparar práctica PDAP
+                <span>pdap</span> 
+                <span>practica</span>
+            </div>
+            <input class="marcar" type="submit" value="Marcar finalizada">
+        </li>
+        <li class="finalizada">Mirar fechas congreso</li>
+        <li>
+            <div>
+                Ir al supermercado 
+                <span>personal</span>
+            </div>
+            <input class="marcar" type="submit" value="Marcar finalizada">
+        </li>
+        <li>
+            <div>
+                Mudanza 
+                <span>personal</span>
+            </div>
+            <input class="marcar" type="submit" value="Marcar finalizada">
+        </li>
+    </ul>   
+    <ul class="agregar"> 
+        <li>
+            <input class="texto" type="text" name="tarea_nueva" value=" "></intput>
+            <div class="botonAgrega"> <a>Añadir</a> </div>
+        </li>
+    </ul>
+
+    <div class="botonElimina"> <a>Eliminar tareas completadas</a> </div>
+</body>
+</html>

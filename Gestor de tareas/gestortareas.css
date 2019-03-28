@@ -1,0 +1,138 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(10, 97, 10);
+}
+
+.datosUs {
+    display: flex;
+}
+
+.datosUs > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgUs {
+    margin-right: 2px;
+}
+
+.emailUs {
+    margin: 2px;
+    font-weight: bold;
+}
+
+.emailUs > span {
+    color: white;
+}
+
+.botonDesconecta {
+    background: rgb(201, 159, 21);
+    border-radius: 7px;
+    margin: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+}
+
+.botonDesconecta:hover {
+    background: rgb(218, 193, 114);
+    cursor: pointer;
+}
+
+.botonElimina {
+    background: rgb(201, 159, 21);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.botonElimina:hover {
+    background: rgb(218, 193, 114);
+    cursor: pointer;
+}
+
+ul {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+.lista > li {
+    display:flex;
+    justify-content: space-between;
+    border: solid;
+    margin: 1px;
+    border-color: rgb(100, 76, 30);
+    background: rgba(224, 205, 97, 0.849);
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+li > div > span {
+    background: rgb(184, 159, 18);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.marcar {
+    background-image: url(RecursosEj2/tick.gif);
+    background-repeat: no-repeat;
+    border: solid #65380c;
+    border-width: thicker;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color:#65380c;
+}
+
+.marcar:hover {
+    background-color:#b49574;
+    cursor: pointer;
+}
+
+.finalizada {
+    text-decoration: line-through;
+    color: #af9755;
+}
+
+.agregar > li { 
+    display:flex;
+    flex-direction: row;
+    background: rgb(132, 207, 132);
+    padding: 5px;
+    border: solid rgb(12, 77, 12);
+    margin-bottom: 20px;
+}
+
+.texto {
+    width: 520px;
+}
+
+.botonAgrega {
+    background: rgb(6, 98, 6);
+    width: 50px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.botonAgrega:hover {
+    background: rgb(97, 158, 110);
+    cursor: pointer;
+}
