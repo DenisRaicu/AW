@@ -8,4 +8,4 @@ Es un repositorio que pretende agrupar distintas prácticas, desarrolladas utili
 - HTML y CSS
   - [Programomikon](https://github.com/DenisRaicu/PRACTICAS-WEB/tree/master/Programomikon)
   - [CFP](https://github.com/DenisRaicu/PRACTICAS-WEB/tree/master/CFP)
-  - [Gestor de tareas]()
+  - [Gestor de tareas](https://github.com/DenisRaicu/PRACTICAS-WEB/tree/master/Gestor%20de%20tareas)
