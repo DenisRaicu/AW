@@ -1,4 +1,4 @@
-# ---------------- DISEÑO Y DESARROLLO WEB ----------------
+# DISEÑO Y DESARROLLO WEB
 ![alt text](https://github.com/DenisRaicu/PRACTICAS-WEB/blob/master/Banner.jpg)
 ## PRÁCTICAS PARA PROFUNDIZAR EN EL DISEÑO Y DESARROLLO WEB
 
